@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2E2E"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="39dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="217dp"
+                android:layout_height="161dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="139dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/original" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="219dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="20dp"
+                android:text="Ты попался на клик беэйт олух, олух, короче вот самые смшные анекдоты EVER: "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="212dp"
+                android:layout_height="241dp"
+                android:layout_marginTop="10dp"
+                android:text="1) Бессмертная классика: Приходит сын в спальню а там батька жарит мамку ну растроенный сынок идет на кухню и видит бабку сидит за столом приходит через какое-то время батька на кухню а там сын начинает ебать бабку отец спрашивает ему  что ты делаешь!? а он такой НУ ЧЕ СУКА, ПРИЯТНО КОГДА ТВОЮ МАТЬ ЕБУТ?"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="139dp"
+                android:layout_height="114dp"
+                android:layout_marginTop="10dp"
+                android:text="2) Рыбак - охотнику: - Ну, ни пуха, ни пера! Охотник - рыбаку: - И тебе х@й, а не рыбы!"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/textView9"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="305dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="3) Ииииииииииииииииии я не знаю анекдотов "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/textView10"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Но фильмы посмотреть надо "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="306dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="20dp"
+                android:text="Назад в меню"
+                android:background="#ffffff"
+                app:layout_constraintStart_toStartOf="@+id/textView12"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
